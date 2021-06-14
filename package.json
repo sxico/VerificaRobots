@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/sxico/VerificaRobots#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "body-parse": "^0.1.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "fs.promises": "^0.1.2"
   }
 }

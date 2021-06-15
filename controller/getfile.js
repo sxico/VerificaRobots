@@ -4,9 +4,9 @@ const axios = require("axios");
  * @param {string} urlParams 
  * @returns {Data Json}
  */
-async function getFileUrl() {
+async function getFileUrl(urlParams) {
     try{
-	    const request = await axios.get("https://sevgo.com.br/robots.txt")
+	    const request = await axios.get(urlParams)
         //return request.data
         //console.log("Código de Estado: " ,request)
 

@@ -30,4 +30,4 @@ async function getFileUrl(urlParams) {
         return error.response
     }
 }
-getFileUrl()
+module.exports = getFileUrl

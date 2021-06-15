@@ -1,8 +1,8 @@
 const axios = require("axios");
 /**
  * 
- * @param {string} urlParams 
- * @returns {Data Json}
+ * @param {string} urlParams - URL do site com path de arquivo a verificar ex.: teste.com/robots.txt
+ * @returns {Data JSON} - status; success; dados; message
  */
 async function getFileUrl(urlParams) {
     try{
@@ -30,6 +30,4 @@ async function getFileUrl(urlParams) {
         return error.response
     }
 }
-
-
 getFileUrl()

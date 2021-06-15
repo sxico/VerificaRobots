@@ -14,7 +14,7 @@ async function getFileUrl(urlParams) {
             return request.status(200).json({
                 success: true,
                 status: 200,
-                data: request,
+                data: request.data,
                 message: "Transação realizada com sucesso"
             });
         }
